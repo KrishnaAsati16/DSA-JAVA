@@ -3,7 +3,7 @@ public class ReverseSb {
 //        String s = "Devesh";
 //        StringBuilder sb = new StringBuilder(s);
 //        // Collections.sort(sb); // does not work
-//        // sb.reverse();
+        // sb.reverse();
 ////        sb.deleteCharAt(1);
 ////        sb.insert(1,'e');
 ////        sb.delete(3,6); // 3 to 5
