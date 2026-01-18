@@ -4,35 +4,33 @@ A collection of Data Structures and Algorithms (DSA) implemented in Java with cl
 
 🧠 Topics Covered
 ✅ Data Structures
+ 
+ -Arrays
 
-Arrays
+ -Strings
 
-Strings
+ -Linked List
 
-Linked List
+ -Stack
 
-Stack
-
-Queue
+ -Queue
 
 ✅ Algorithms
 
-Searching (Linear, Binary)
+ -Searching (Linear, Binary)
 
-Sorting (Bubble, Selection, Insertion, Merge, Quick)
+ -Sorting (Bubble, Selection, Insertion, Merge, Quick)
 
-Recursion & Backtracking
+ -Recursion & Backtracking
 
-Two Pointer Technique
+ -Two Pointer Technique
 
-Greedy Algorithms
-
-Graph Algorithms (BFS, DFS, Dijkstra)
+ -Greedy Algorithms
 
 🛠 Tech Stack
 
-Language: Java
+ -Language: Java
 
-IDE: VS Code / IntelliJ IDEA
+ -IDE: VS Code / IntelliJ IDEA
 
-Version Control: Git & GitHub
+ -Version Control: Git & GitHub
