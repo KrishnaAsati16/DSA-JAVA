@@ -15,6 +15,8 @@ A collection of Data Structures and Algorithms (DSA) implemented in Java with cl
 
  ->  Queue
 
+ -> Binary Search 
+
 ✅ Algorithms
 
  ->  Searching (Linear, Binary)
