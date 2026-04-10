@@ -17,7 +17,9 @@ A collection of Data Structures and Algorithms (DSA) implemented in Java with cl
 
  -> Binary Search 
 
- -> Binart Tree 
+ -> Binart Tree
+
+ -> Heap
 
 ✅ Algorithms
 
