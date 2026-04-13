@@ -24,3 +24,12 @@ A structured collection of DSA problems solved in Java — covering fundamental 
 | Bit Manipulation | XOR tricks, bitmasks |
 
 ## Structure
+
+java-dsa/
+├── arrays/
+├── linked-lists/
+├── trees/
+├── graphs/
+├── dynamic-programming/
+├── sorting/
+└── utils/          ← shared helpers (TreeNode, ListNode, etc.)
