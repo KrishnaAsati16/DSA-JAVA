@@ -1,42 +1,26 @@
-📘 Java DSA Practice Repository
+# ☕ Java DSA Practice
 
-A collection of Data Structures and Algorithms (DSA) implemented in Java with clean code, comments, and optimized solutions for interview preparation and competitive programming.
+A structured collection of DSA problems solved in Java — covering fundamental data structures, classic algorithms, and common patterns asked in technical interviews. Each solution includes time and space complexity notes.
 
-🧠 Topics Covered
-✅ Data Structures
- 
- ->  Arrays
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=flat&logo=leetcode&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
- ->  Strings
+## Topics Covered
 
- ->  Linked List
+| Topic | Patterns |
+|---|---|
+| Arrays & Strings | Sliding window, two pointers |
+| Linked Lists | Singly, doubly, circular |
+| Stacks & Queues | Monotonic, deque, BFS |
+| Trees | BST, AVL, traversals |
+| Graphs | DFS, BFS, Dijkstra, Union-Find |
+| Recursion & Backtracking | Permutations, subsets |
+| Dynamic Programming | Memoization, tabulation |
+| Sorting & Searching | Merge sort, binary search |
+| Heaps | Min-heap, top-K problems |
+| Hashing | HashMap/HashSet patterns |
+| Tries | Prefix trees, word search |
+| Bit Manipulation | XOR tricks, bitmasks |
 
- ->  Stack
-
- ->  Queue
-
- -> Binary Search 
-
- -> Binart Tree
-
- -> Heap
-
-✅ Algorithms
-
- ->  Searching (Linear, Binary)
-
- ->  Sorting (Bubble, Selection, Insertion, Merge, Quick)
-
- ->  Recursion & Backtracking
-
- ->  Two Pointer Technique
-
- ->  Greedy Algorithms
-
-🛠 Tech Stack
-
- ->  Language: Java
-
- ->  IDE: VS Code / IntelliJ IDEA
-
- ->  Version Control: Git & GitHub
+## Structure
