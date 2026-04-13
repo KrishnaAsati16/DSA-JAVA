@@ -33,3 +33,51 @@ java-dsa/
 ├── dynamic-programming/
 ├── sorting/
 └── utils/          ← shared helpers (TreeNode, ListNode, etc.)
+
+## Solution Convention
+
+Each file is self-contained and named after the problem:
+
+```java
+/**
+ * Problem: Two Sum (LeetCode #1)
+ * Difficulty: Easy
+ * Approach: HashMap for O(n) lookup
+ * Time:  O(n)
+ * Space: O(n)
+ */
+public class TwoSum {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement))
+                return new int[]{map.get(complement), i};
+            map.put(nums[i], i);
+        }
+        return new int[]{};
+    }
+}
+```
+
+## Prerequisites
+
+- Java 17+
+- IntelliJ IDEA, Eclipse, or VS Code with the Java extension
+
+## Running a Solution
+
+```bash
+javac arrays/TwoSum.java
+java arrays/TwoSum
+```
+
+## Resources
+
+- [LeetCode](https://leetcode.com)
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
+- [Java 17 API Docs](https://docs.oracle.com/en/java/javase/17/docs/api/)
+
+## License
+
+MIT
