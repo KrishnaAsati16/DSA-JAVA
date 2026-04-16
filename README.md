@@ -1,42 +1,83 @@
-📘 Java DSA Practice Repository
+# ☕ Java DSA Practice
 
-A collection of Data Structures and Algorithms (DSA) implemented in Java with clean code, comments, and optimized solutions for interview preparation and competitive programming.
+A structured collection of DSA problems solved in Java — covering fundamental data structures, classic algorithms, and common patterns asked in technical interviews. Each solution includes time and space complexity notes.
 
-🧠 Topics Covered
-✅ Data Structures
- 
- ->  Arrays
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=flat&logo=leetcode&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
- ->  Strings
+## Topics Covered
 
- ->  Linked List
+| Topic | Patterns |
+|---|---|
+| Arrays & Strings | Sliding window, two pointers |
+| Linked Lists | Singly, doubly, circular |
+| Stacks & Queues | Monotonic, deque, BFS |
+| Trees | BST, AVL, traversals |
+| Graphs | DFS, BFS, Dijkstra, Union-Find |
+| Recursion & Backtracking | Permutations, subsets |
+| Dynamic Programming | Memoization, tabulation |
+| Sorting & Searching | Merge sort, binary search |
+| Heaps | Min-heap, top-K problems |
+| Hashing | HashMap/HashSet patterns |
+| Tries | Prefix trees, word search |
+| Bit Manipulation | XOR tricks, bitmasks |
 
- ->  Stack
+## Structure
 
- ->  Queue
+java-dsa/
+├── arrays/
+├── linked-lists/
+├── trees/
+├── graphs/
+├── dynamic-programming/
+├── sorting/
+└── utils/          ← shared helpers (TreeNode, ListNode, etc.)
 
- -> Binary Search 
+## Solution Convention
 
- -> Binart Tree
+Each file is self-contained and named after the problem:
 
- -> Heap
+```java
+/**
+ * Problem: Two Sum (LeetCode #1)
+ * Difficulty: Easy
+ * Approach: HashMap for O(n) lookup
+ * Time:  O(n)
+ * Space: O(n)
+ */
+public class TwoSum {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement))
+                return new int[]{map.get(complement), i};
+            map.put(nums[i], i);
+        }
+        return new int[]{};
+    }
+}
+```
 
-✅ Algorithms
+## Prerequisites
 
- ->  Searching (Linear, Binary)
+- Java 17+
+- IntelliJ IDEA, Eclipse, or VS Code with the Java extension
 
- ->  Sorting (Bubble, Selection, Insertion, Merge, Quick)
+## Running a Solution
 
- ->  Recursion & Backtracking
+```bash
+javac arrays/TwoSum.java
+java arrays/TwoSum
+```
 
- ->  Two Pointer Technique
+## Resources
 
- ->  Greedy Algorithms
+- [LeetCode](https://leetcode.com)
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
+- [Java 17 API Docs](https://docs.oracle.com/en/java/javase/17/docs/api/)
 
-🛠 Tech Stack
+## License
 
- ->  Language: Java
-
- ->  IDE: VS Code / IntelliJ IDEA
-
- ->  Version Control: Git & GitHub
+MIT
