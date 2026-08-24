@@ -67,10 +67,6 @@ public class TwoSum {
 
 ## Running a Solution
 
-```bash
-javac arrays/TwoSum.java
-java arrays/TwoSum
-```
 
 ## Resources
 
