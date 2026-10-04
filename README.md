@@ -1,4 +1,4 @@
-# ☕ Java DSA Practice
+## ☕ Java DSA Practice
 
 A structured collection of DSA problems solved in Java — covering fundamental data structures, classic algorithms, and common patterns asked in technical interviews. Each solution includes time and space complexity notes.
 
@@ -67,10 +67,6 @@ public class TwoSum {
 
 ## Running a Solution
 
-```bash
-javac arrays/TwoSum.java
-java arrays/TwoSum
-```
 
 ## Resources
 
